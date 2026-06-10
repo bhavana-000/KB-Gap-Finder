@@ -22,4 +22,4 @@
   - Phone: 8248890779
   - Email: bhavana02jul@gmail.com
   - Degree: B.Tech IT
-  - College: R P Sarathy Institute of Technology
+  - College: R P Sarathy Institute of Technology 
