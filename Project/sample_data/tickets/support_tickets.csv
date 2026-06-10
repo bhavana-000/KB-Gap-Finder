@@ -1,0 +1,41 @@
+ticket_id,date,category,subject,description,status,resolution
+T001,2024-01-10,ERP Login,Cannot login to ERP portal,Student unable to login to ERP portal after password reset. Getting invalid credentials error.,Closed,Reset password via admin panel
+T002,2024-01-11,ERP Login,ERP login not working,Login page shows error after entering correct credentials. Account may be locked.,Closed,Unlocked account in admin
+T003,2024-01-12,ERP Login,Forgot ERP password,Student forgot their ERP password and cannot access any modules.,Closed,Sent password reset link
+T004,2024-01-13,Attendance,Attendance not updated,Student attendance marked present in class but ERP shows absent for the same date.,Closed,Faculty updated attendance manually
+T005,2024-01-14,Attendance,Wrong attendance percentage,Attendance percentage shown in ERP is lower than actual. Missing entries for last week.,Closed,Database sync triggered
+T006,2024-01-15,Attendance,Proxy attendance issue,Student attendance showing mismatch between biometric and ERP records.,Closed,Reconciled biometric data
+T007,2024-01-16,Scholarship,Scholarship form not submitting,Scholarship application form throws error on final submission step. Data is lost.,Closed,Fixed form validation bug
+T008,2024-01-17,Scholarship,Cannot see scholarship status,After submitting scholarship form student cannot track current application status.,Closed,Explained status tracking page
+T009,2024-01-18,Scholarship,Scholarship documents upload failing,File upload section in scholarship portal rejects PDF documents over 2MB.,Closed,Increased upload size limit
+T010,2024-01-19,Hostel,Hostel room allotment not showing,Student applied for hostel but room allotment page shows no data.,Closed,Allotment processed manually
+T011,2024-01-20,Hostel,Hostel fee payment failed,Online hostel fee payment gateway times out after entering card details.,Closed,Payment processed via DD
+T012,2024-01-21,Hostel,Hostel allotment cancellation,Student wants to cancel hostel allotment and get refund processed.,Closed,Cancellation processed
+T013,2024-01-22,Transport,Bus route not visible,Student cannot see assigned bus route and stop details in transport module.,Closed,Route assigned in backend
+T014,2024-01-23,Transport,Transport fee not reflected,Paid transport fee via bank transfer but ERP still shows fee due.,Closed,Manual payment entry done
+T015,2024-01-24,Transport,Bus pass not generated,Bus pass download option not appearing after transport fee payment confirmation.,Closed,Pass generated manually
+T016,2024-01-25,Hall Ticket,Hall ticket not downloading,Exam hall ticket download button not working. Page loads but PDF does not open.,Closed,Direct link sent to student
+T017,2024-01-26,Hall Ticket,Hall ticket showing wrong exam center,Exam center shown on hall ticket does not match the one assigned during registration.,Closed,Corrected center in database
+T018,2024-01-27,Hall Ticket,Hall ticket not generated,Hall ticket section shows pending even though all dues are cleared.,Closed,Triggered generation manually
+T019,2024-01-28,ID Card,ID card not printed,Student ID card status shows approved but physical card not received after 2 weeks.,Closed,Card reprinted and dispatched
+T020,2024-01-29,ID Card,ID card photo rejected,Uploaded photo for ID card rejected without clear reason or guidance.,Closed,Explained photo guidelines
+T021,2024-01-30,Food Menu,Mess menu not updated,Mess food menu in ERP shows last month menu instead of current week.,Closed,Menu updated by admin
+T022,2024-01-31,Course Registration,Cannot register for elective,Course registration page does not show available elective courses for selection.,Closed,Eligibility criteria explained
+T023,2024-02-01,Course Registration,Course registration closed early,Course registration window closed before deadline shown on portal.,Closed,Extended registration manually
+T024,2024-02-02,ERP Login,Session timeout too frequent,ERP session expires every 5 minutes causing loss of unsaved work.,Closed,Session timeout extended
+T025,2024-02-03,Attendance,Attendance sheet not loading,Attendance detail page keeps loading and never shows data. Tried multiple browsers.,Closed,Cleared server cache
+T026,2024-02-04,Scholarship,Scholarship amount not credited,Scholarship was approved 3 weeks ago but amount not credited to bank account.,Closed,Escalated to finance team
+T027,2024-02-05,Hall Ticket,Hall ticket photo mismatch,Photo on hall ticket does not match student profile photo uploaded in ERP.,Closed,Photo synced from profile
+T028,2024-02-06,Transport,Bus route change request,Student shifted residence and needs bus route changed for new stop.,Closed,Route updated after verification
+T029,2024-02-07,Hostel,Hostel room change request,Student wants to change room due to roommate conflict.,Closed,Room change approved
+T030,2024-02-08,Course Registration,Backlog course not showing,Student with backlog cannot see backlog courses in registration page.,Closed,Backlog courses made visible
+T031,2024-02-09,ERP Login,Two factor auth not working,OTP for two factor authentication not received on registered mobile number.,Closed,OTP service restarted
+T032,2024-02-10,Attendance,Medical leave not reflected,Submitted medical leave application but attendance still showing absent.,Closed,Leave applied to records
+T033,2024-02-11,Scholarship,Renewal scholarship not showing,Continuing student cannot see scholarship renewal option in portal.,Closed,Renewal option enabled
+T034,2024-02-12,ID Card,Duplicate ID card request,Lost ID card. Student needs duplicate card with updated validity.,Closed,Duplicate card issued after fee payment
+T035,2024-02-13,Food Menu,Special diet request,Student with medical condition needs special dietary accommodation in mess.,Closed,Forwarded to mess committee
+T036,2024-02-14,Hall Ticket,Practical exam hall ticket missing,Theory exam hall ticket generated but practical exam hall ticket not available.,Closed,Practical hall ticket generated
+T037,2024-02-15,Course Registration,Grade improvement course registration,Student wants to register for grade improvement exam for previous semester course.,Closed,GI registration processed
+T038,2024-02-16,Transport,Bus timing change not notified,Bus timings changed but students not notified. Missed bus due to old schedule.,Closed,Notification system checked
+T039,2024-02-17,Hostel,Hostel maintenance complaint,Hostel room has electrical fault. Complaint not being addressed.,Closed,Maintenance team assigned
+T040,2024-02-18,ERP Login,ERP slow loading on mobile,ERP portal extremely slow on mobile browser. Takes over 2 minutes to load.,Closed,Mobile optimization noted
