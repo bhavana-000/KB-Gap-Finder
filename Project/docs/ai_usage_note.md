@@ -80,4 +80,4 @@ in the same process?
 
 ---
 
-*AI tools used: Claude (Anthropic) for architecture, prompts, code review. GitHub Copilot for inline completions.*
+*AI tools used: Claude codex  (Anthropic) for architecture, prompts, code review. GitHub Copilot for inline completions.*
